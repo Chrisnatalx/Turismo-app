@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 import "animate.css";
 
 export default function Hoteles({ id, destino }) {
-	const productoUrl = `/assets/alojamiento${id}.jpg`;
+	const productoUrl = `/dist/alojamiento${id}.jpg`;
 
 	return (
 		<Container sx={{ margin: 2 }}>

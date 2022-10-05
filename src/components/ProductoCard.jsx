@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 import "animate.css";
 
 export default function ProductoCard({ id, destino }) {
-	const productoUrl = `/assets/foto${id}.jpg`;
+	const productoUrl = `/dist/foto${id}.jpg`;
 
 	return (
 		<Container>
