@@ -9,8 +9,8 @@ import { Container } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import "animate.css";
 
-export default function Hoteles({ id, destino }) {
-	const productoUrl = `/dist/alojamiento${id}.jpg`;
+export default function Hoteles({ id, destino, url }) {
+	const productoUrl = url;
 
 	return (
 		<Container sx={{ margin: 2 }}>

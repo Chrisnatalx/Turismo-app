@@ -9,8 +9,8 @@ import { Container } from "@mui/system";
 import { NavLink } from "react-router-dom";
 import "animate.css";
 
-export default function ProductoCard({ id, destino }) {
-	const productoUrl = `/dist/foto${id}.jpg`;
+export default function ProductoCard({ id, destino, url }) {
+	const productoUrl = url;
 
 	return (
 		<Container>
